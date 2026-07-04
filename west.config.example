@@ -1,0 +1,9 @@
+[manifest]
+path = zmk/app
+file = west.yml
+
+[zephyr]
+base = zephyr
+
+[build]
+cmake-args = -DZMK_EXTRA_MODULES="/home/travis/projects/unicorn/unicorne-zmk"
